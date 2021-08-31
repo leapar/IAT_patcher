@@ -1,4 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+
+/*
+yasm.exe E:\codes\IAT_patcher\stub\stub64.asm
+
+
+
+*/
 
 int main(int argc, char* argv[])
 {
@@ -17,7 +25,9 @@ int main(int argc, char* argv[])
     char c = 0;
     while(!feof(fp)) {
         c = fgetc (fp);
-        if (c == EOF) break;
+		if (c == EOF) {
+			//break;
+		}
         if (i == brk) {
             i = 0;
             printf("\n");

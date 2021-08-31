@@ -1,2 +1,7 @@
 build/
-
+bin/
+stub/fmt/fmt/Debug/
+stub/fmt/fmt/x64/
+stub/fmt/Debug/
+stub/fmt/.vs/
+stub/fmt/x64/

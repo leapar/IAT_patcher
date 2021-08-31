@@ -19,11 +19,11 @@
 #define QT_VER_NUM QT_VERSION_MAJOR
 #endif
 
-#define VERSION "0.3.5.3"
-#define MY_SITE_LINK "https://hasherezade.net/"
+#define VERSION "0.1"
+#define MY_SITE_LINK "https://wocao3d.com/"
 #define LICENSE_TYPE "BSD-2"
 #define LICENSE_LINK "https://raw.githubusercontent.com/hasherezade/IAT_patcher/master/LICENSE"
-#define SITE_LINK "http://hasherezade.github.io/IAT_patcher/"
+#define SITE_LINK "https://wocao3d.com/"
 #define ISSUES_LINK "https://github.com/hasherezade/IAT_patcher/issues"
 
 class ThreadCounter : public QObject

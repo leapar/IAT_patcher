@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent) :
     makeCustomMenu();
     makeFunctionsMenu();
     makeFileMenu();
-    this->setWindowTitle("IAT Patcher v " + QString(VERSION) + " Qt" + QString::number(QT_VER_NUM, 10));
+    this->setWindowTitle("IAT Ring3 hook v" + QString(VERSION) + " by leapar");// + QString::number(QT_VER_NUM, 10)
 
     this->infoModel = new InfoTableModel(m_ui.outputTable);
     infoModel->setExecutables(&m_exes);
