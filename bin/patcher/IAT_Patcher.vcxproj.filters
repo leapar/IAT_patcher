@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_StubMaker.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_FuncReplacements.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_ImportsLookup.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_ExeHandler.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_Executables.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_ExeController.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_InfoTableModel.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_ImportsTableModel.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_FileLoader.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_ExeHandlerLoader.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_ReplacementsDialog.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_mainwindow.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\moc_resource.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\dllparse\moc_LibraryParser.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\dllparse\moc_LibraryInfo.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\dllparse\moc_LibsModel.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\dllparse\moc_FunctionsModel.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\stub\Stub.cpp">
+      <Filter>Source Files\stub</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\stub\Stub32.cpp">
+      <Filter>Source Files\stub</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\stub\Stub64.cpp">
+      <Filter>Source Files\stub</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\dllparse\LibraryParser.cpp">
+      <Filter>Source Files\dllparse</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\dllparse\LibraryInfo.cpp">
+      <Filter>Source Files\dllparse</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\dllparse\LibsModel.cpp">
+      <Filter>Source Files\dllparse</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\dllparse\FunctionsModel.cpp">
+      <Filter>Source Files\dllparse</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\StubMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\FuncReplacements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\ImportsLookup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\ExeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\Executables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\ExeController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\InfoTableModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\ImportsTableModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\FileLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\ExeHandlerLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\ReplacementsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\patcher\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bin\patcher\qrc_application.cpp">
+      <Filter>Source Files\Auto Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\codes\IAT_patcher\bin\patcher\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bin\patcher\ui_replacements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\stub\Stub.h">
+      <Filter>Header Files\stub</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\stub\Stub32.h">
+      <Filter>Header Files\stub</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\stub\Stub64.h">
+      <Filter>Header Files\stub</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\stub\Stub32Data.h">
+      <Filter>Header Files\stub</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\stub\Stub64Data.h">
+      <Filter>Header Files\stub</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\dllparse\LibraryParser.h">
+      <Filter>Header Files\dllparse</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\dllparse\LibraryInfo.h">
+      <Filter>Header Files\dllparse</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\dllparse\LibsModel.h">
+      <Filter>Header Files\dllparse</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\dllparse\FunctionsModel.h">
+      <Filter>Header Files\dllparse</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\StubMaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\FuncReplacements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\ImportsLookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\ExeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\Executables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\ExeController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\InfoTableModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\ImportsTableModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\FileLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\ExeHandlerLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\ReplacementsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\patcher\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_StubMaker.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_FuncReplacements.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_ImportsLookup.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_ExeHandler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_Executables.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_ExeController.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_InfoTableModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_ImportsTableModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_FileLoader.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_ExeHandlerLoader.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_ReplacementsDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_mainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\d69d93e5dc7c9667e7261b4bcddfb5c6\moc_resource.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\65a9720d338a6efd3e2340a103a6f0fc\moc_LibraryParser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\65a9720d338a6efd3e2340a103a6f0fc\moc_LibraryInfo.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\65a9720d338a6efd3e2340a103a6f0fc\moc_LibsModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\bin\CMakeFiles\65a9720d338a6efd3e2340a103a6f0fc\moc_FunctionsModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\codes\IAT_patcher\patcher\mainwindow.ui" />
+    <CustomBuild Include="E:\codes\IAT_patcher\patcher\replacements.ui" />
+    <CustomBuild Include="E:\codes\IAT_patcher\patcher\application.qrc" />
+    <CustomBuild Include="E:\codes\IAT_patcher\patcher\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\codes\IAT_patcher\patcher\IAT_Patcher.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FAE9F822-30D8-34B9-A3AE-015B027AFEB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CE440E14-DE57-32C2-897F-A56E9337F8E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dllparse">
+      <UniqueIdentifier>{AA8FEE32-49A3-31E5-ACDA-05B18B6F9A1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\stub">
+      <UniqueIdentifier>{E56FB13F-D262-328B-9169-3F00DAB70837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1742045C-3F44-344C-84CB-20F363F18056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Auto Generated">
+      <UniqueIdentifier>{BE20887C-4F57-3026-8255-EBAF6A03B92C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dllparse">
+      <UniqueIdentifier>{A159A87E-D975-3788-89C0-16C3D981B25A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stub">
+      <UniqueIdentifier>{BB43644A-5152-3C6D-8042-806E863DB29F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

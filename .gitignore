@@ -1,7 +1,6 @@
-build/
-bin/
+bin/bearparser/parser/bearparser.dir/
+bin/CMakeFiles/
+bin/.vs/
+bin/patcher/IAT_Patcher.dir/
 stub/fmt/fmt/Debug/
-stub/fmt/fmt/x64/
-stub/fmt/Debug/
-stub/fmt/.vs/
-stub/fmt/x64/
+stub/fmt/fmt/x64/Debug/

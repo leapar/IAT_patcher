@@ -1,0 +1,6 @@
+-IE:/codes/IAT_patcher/bearparser/parser/include
+-DWIN32
+--compiler-flavor=msvc
+-o
+E:/codes/IAT_patcher/bin/patcher/moc_ExeController.cpp
+E:/codes/IAT_patcher/patcher/ExeController.h

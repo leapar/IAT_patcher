@@ -1,0 +1,10 @@
+^E:\CODES\IAT_PATCHER\BIN\CMAKEFILES\2B17ABD519A2D28672470CB2D65B5AA7\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

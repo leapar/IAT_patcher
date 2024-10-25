@@ -1,0 +1,10 @@
+^E:\CODES\IAT_PATCHER\CMAKELISTS.TXT
+setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SE:/codes/IAT_patcher -BE:/codes/IAT_patcher/bin --check-stamp-file E:/codes/IAT_patcher/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

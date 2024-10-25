@@ -1,0 +1,6 @@
+-IE:/codes/IAT_patcher/bearparser/parser/include
+-DWIN32
+--compiler-flavor=msvc
+-o
+E:/codes/IAT_patcher/bin/patcher/dllparse/moc_LibraryParser.cpp
+E:/codes/IAT_patcher/patcher/dllparse/LibraryParser.h

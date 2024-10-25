@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1AD7E0FD-2397-3AC6-84C9-B3068DB6033B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>bearparser</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\codes\IAT_patcher\bin\bearparser\parser\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bearparser.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bearparser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\codes\IAT_patcher\bin\bearparser\parser\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bearparser.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bearparser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\codes\IAT_patcher\bin\bearparser\parser\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bearparser.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bearparser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\codes\IAT_patcher\bin\bearparser\parser\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bearparser.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bearparser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WITH_QT5;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WITH_QT5;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_QT5;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_QT5;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_QT5;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_QT5;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_QT5;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_QT5;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\codes\IAT_patcher\bearparser\parser\include\bearparser;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\codes\IAT_patcher\bearparser\parser\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/codes/IAT_patcher/bearparser/parser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SE:/codes/IAT_patcher -BE:/codes/IAT_patcher/bin --check-stamp-file E:/codes/IAT_patcher/bin/bearparser/parser/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;F:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\codes\IAT_patcher\bin\bearparser\parser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/codes/IAT_patcher/bearparser/parser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SE:/codes/IAT_patcher -BE:/codes/IAT_patcher/bin --check-stamp-file E:/codes/IAT_patcher/bin/bearparser/parser/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;F:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\codes\IAT_patcher\bin\bearparser\parser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/codes/IAT_patcher/bearparser/parser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SE:/codes/IAT_patcher -BE:/codes/IAT_patcher/bin --check-stamp-file E:/codes/IAT_patcher/bin/bearparser/parser/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;F:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\codes\IAT_patcher\bin\bearparser\parser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/codes/IAT_patcher/bearparser/parser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"F:\Program Files\CMake\bin\cmake.exe" -SE:/codes/IAT_patcher -BE:/codes/IAT_patcher/bin --check-stamp-file E:/codes/IAT_patcher/bin/bearparser/parser/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\Qt5.9.9\5.9.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;F:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\codes\IAT_patcher\bin\bearparser\parser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\poppack.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\pshpack1.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\pshpack2.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\pshpack4.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\pshpack8.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\win_types.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\bearparser.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\Util.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\CustomException.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\AbstractByteBuffer.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\WrappedValue.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\ByteBuffer.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\FileBuffer.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\Executable.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\MappedExe.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\ExeElementWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\ExeNodeWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\ExeFactory.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\Formatter.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\pe_formats.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\pe_undoc.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DosHdrWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DOSExe.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\PECore.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\PEFile.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\RichHdrWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\FileHdrWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\OptHdrWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\SectHdrsWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DataDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\PENodeWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DataDirEntryWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ImportBaseDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ImportDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DelayImpDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\BoundImpDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DebugDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ExportDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\SecurityDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\TlsDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\LdConfigDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\RelocDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ExceptionDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ResourceDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ResourceLeafWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ClrDirWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourcesAlbum.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourceContentFactory.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourceContentWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourceStringsWrapper.h" />
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourceVersionWrapper.h" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\Util.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\AbstractByteBuffer.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\WrappedValue.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\ByteBuffer.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\FileBuffer.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\Executable.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\MappedExe.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\ExeElementWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\ExeNodeWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\ExeFactory.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\Formatter.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DosHdrWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DOSExe.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\PECore.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\PEFile.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\RichHdrWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\FileHdrWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\OptHdrWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\SectHdrsWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DataDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\PENodeWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DataDirEntryWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ImportBaseDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ImportDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DelayImpDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\BoundImpDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DebugDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ExportDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\SecurityDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\TlsDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\LdConfigDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\RelocDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ExceptionDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ResourceDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ClrDirWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourcesAlbum.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourceContentFactory.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourceContentWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourceStringsWrapper.cpp" />
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourceVersionWrapper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\codes\IAT_patcher\bin\ZERO_CHECK.vcxproj">
+      <Project>{BFC16763-DE29-335D-B987-9624809B79D4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

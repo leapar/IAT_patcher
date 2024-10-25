@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/Qt/Qt5.9.9/5.9.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+D:/Qt/Qt5.9.9/5.9.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+D:/Qt/Qt5.9.9/5.9.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+D:/Qt/Qt5.9.9/5.9.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+D:/Qt/Qt5.9.9/5.9.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+E:/codes/IAT_patcher/bearparser/parser/CMakeLists.txt
+F:/Program Files/CMake/share/cmake-3.17/Modules/CMakeParseArguments.cmake

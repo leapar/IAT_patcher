@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\AbstractByteBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\WrappedValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\ByteBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\FileBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\Executable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\MappedExe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\ExeElementWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\ExeNodeWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\ExeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\Formatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DosHdrWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DOSExe.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\PECore.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\PEFile.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\RichHdrWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\FileHdrWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\OptHdrWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\SectHdrsWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DataDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\PENodeWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DataDirEntryWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ImportBaseDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ImportDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DelayImpDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\BoundImpDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\DebugDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ExportDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\SecurityDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\TlsDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\LdConfigDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\RelocDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ExceptionDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ResourceDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\ClrDirWrapper.cpp">
+      <Filter>Source Files\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourcesAlbum.cpp">
+      <Filter>Source Files\pe\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourceContentFactory.cpp">
+      <Filter>Source Files\pe\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourceContentWrapper.cpp">
+      <Filter>Source Files\pe\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourceStringsWrapper.cpp">
+      <Filter>Source Files\pe\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codes\IAT_patcher\bearparser\parser\pe\rsrc\ResourceVersionWrapper.cpp">
+      <Filter>Source Files\pe\rsrc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\poppack.h">
+      <Filter>Header Files\win_hdrs</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\pshpack1.h">
+      <Filter>Header Files\win_hdrs</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\pshpack2.h">
+      <Filter>Header Files\win_hdrs</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\pshpack4.h">
+      <Filter>Header Files\win_hdrs</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\pshpack8.h">
+      <Filter>Header Files\win_hdrs</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\win_hdrs\win_types.h">
+      <Filter>Header Files\win_hdrs</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\bearparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\CustomException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\AbstractByteBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\WrappedValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\ByteBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\FileBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\Executable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\MappedExe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\ExeElementWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\ExeNodeWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\ExeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\Formatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\pe_formats.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\pe_undoc.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DosHdrWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DOSExe.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\PECore.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\PEFile.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\RichHdrWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\FileHdrWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\OptHdrWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\SectHdrsWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DataDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\PENodeWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DataDirEntryWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ImportBaseDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ImportDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DelayImpDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\BoundImpDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\DebugDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ExportDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\SecurityDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\TlsDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\LdConfigDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\RelocDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ExceptionDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ResourceDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ResourceLeafWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\ClrDirWrapper.h">
+      <Filter>Header Files\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourcesAlbum.h">
+      <Filter>Header Files\pe\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourceContentFactory.h">
+      <Filter>Header Files\pe\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourceContentWrapper.h">
+      <Filter>Header Files\pe\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourceStringsWrapper.h">
+      <Filter>Header Files\pe\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codes\IAT_patcher\bearparser\parser\include\bearparser\pe\rsrc\ResourceVersionWrapper.h">
+      <Filter>Header Files\pe\rsrc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\codes\IAT_patcher\bearparser\parser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CE440E14-DE57-32C2-897F-A56E9337F8E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pe">
+      <UniqueIdentifier>{14EE9DF7-0D80-3C05-811C-4C26AA8E5143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pe\rsrc">
+      <UniqueIdentifier>{E36F0CBC-FA85-3BBF-8399-465629E22074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\win_hdrs">
+      <UniqueIdentifier>{BA5B71F9-79CC-30A1-82BD-2B9A427032F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1742045C-3F44-344C-84CB-20F363F18056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pe">
+      <UniqueIdentifier>{49BB6860-06B9-34A6-BEF4-D1293A4E83F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pe\rsrc">
+      <UniqueIdentifier>{E4CAD5FC-0DE2-3E15-9B34-895E5EADA9EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
